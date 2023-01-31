@@ -665,7 +665,7 @@ img {
 }
 .project__bg {
     background-color: var(--first-color-second);
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 .project__title {
     font-size: var(--h2-font-size);
