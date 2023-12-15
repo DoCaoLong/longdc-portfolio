@@ -949,10 +949,6 @@ h1 .home__title {
 }
 /* For medium devices */
 @media screen and (min-width: 568px) {
-    .scrollup {
-        bottom: 8rem;
-        right: 28px;
-    }
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -981,10 +977,6 @@ h1 .home__title {
     .container {
         margin-left: auto;
         margin-right: auto;
-    }
-    .scrollup {
-        bottom: 8rem;
-        right: 28px;
     }
     body {
         margin: 0;
@@ -1173,5 +1165,11 @@ h1 .home__title {
     }
     .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .scrollup {
+        bottom: 8rem;
+        right: 28px;
     }
 }
