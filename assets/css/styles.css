@@ -862,7 +862,7 @@ h1 .home__title {
 /*========== SCROLL UP ==========*/
 .scrollup {
     position: fixed;
-    right: 1rem;
+    right: 28px;
     bottom: -20%;
     background-color: var(--first-color);
     opacity: 0.8;
@@ -977,6 +977,10 @@ h1 .home__title {
     .container {
         margin-left: auto;
         margin-right: auto;
+    }
+    .scrollup {
+        bottom: 8rem;
+        right: 28px;
     }
     body {
         margin: 0;
