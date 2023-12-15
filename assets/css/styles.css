@@ -949,6 +949,10 @@ h1 .home__title {
 }
 /* For medium devices */
 @media screen and (min-width: 568px) {
+    .scrollup {
+        bottom: 8rem;
+        right: 28px;
+    }
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
     }
